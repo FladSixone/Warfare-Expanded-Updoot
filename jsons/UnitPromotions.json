@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Infantry", "Marines", "Anti Cavalry", "Recon", "Paratrooper", "Ranged Heavy", "Ranged Support", "Siege Melee", "Siege Ranged", "Heavy Cavalry", "Light Cavalry", "Ranged Cavalry", "Counter Cavalry", "Anti Air", "Naval Melee", "Naval Ranged", "Naval Siege", "Naval Carrier", "Naval Raider", "Naval Submarine", "Air Fighter", "Air Bomber", "Air Close Air Support", "Air Helicopter", "Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine", "Militia"]
 	},
 
@@ -164,7 +164,7 @@
 	},
 	{
 		"name": "Battle Recon",
-		"uniques": ["Ignores Zone of Control", "May withdraw before melee ([50]%)"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat <with [50]% chance>"],
 		"prerequisites": ["Infiltration"],
 		"unitTypes": ["Recon"]
 	},
@@ -200,7 +200,7 @@
 	},
 	{
 		"name": "Special Promotion",
-		"uniques": ["This Unit upgrades for free including special upgrades"],
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"prerequisites": ["Battlefield Survival II", "Defender II"],
 		"unitTypes": ["Militia"]
 	},
@@ -320,7 +320,7 @@
 	},
 	{
 		"name": "Skirmisher Tactics",
-		"uniques": ["May withdraw before melee ([40]%)"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Mantlet"],
 		"unitTypes": ["Ranged Support"]
 	},
@@ -452,7 +452,7 @@
 	},
 	{
 		"name": "Commando Cavalry",
-		"uniques": ["Ignores Zone of Control", "May withdraw before melee ([40]%)"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Pursuit", "Outmaneuvering"],
 		"unitTypes": ["Light Cavalry"]
 	},
@@ -512,7 +512,7 @@
 	},
 	{
 		"name": "Evasive Tactic",
-		"uniques": ["May withdraw before melee ([40]%)"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Harassing Fire"],
 		"unitTypes": ["Ranged Cavalry"]
 	},
@@ -792,7 +792,7 @@
 	},
 	{
 		"name": "Veteran Raider",
-		"uniques": ["May withdraw before melee ([35]%)", "[+35]% Strength <when attacking>"],
+		"uniques": ["Withdraws before melee combat <with [35]% chance>", "[+35]% Strength <when attacking>"],
 		"prerequisites": ["Weakpoint Exploitation", "Silent Running"],
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
@@ -1123,7 +1123,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",

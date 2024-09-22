@@ -1082,7 +1082,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Melee Water] units"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can see invisible [Melee Water] units"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1998,7 +1998,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
 		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Melee Water] units", "[60]% chance to intercept air attacks",
-			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [70]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2761,7 +2761,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -2797,7 +2797,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -2806,7 +2806,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
