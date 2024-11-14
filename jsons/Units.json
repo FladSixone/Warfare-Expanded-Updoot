@@ -1674,7 +1674,7 @@
 		"cost": 425,
 		"requiredTech": "Steam Power",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Normal vision when embarked", "[+100]% Strength <when defending> <when [Embarked]>", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{

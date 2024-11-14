@@ -56,7 +56,7 @@
 	},
 	{
 		"name": "Offshore Operation",
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
 		"unitTypes": ["Marines"]
 	},
 	{
@@ -1151,7 +1151,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
